@@ -17,7 +17,7 @@ app.use(
 );
 
 // using routes
-app.use("/products", require("./routes/products"));
+app.use("/", require("./routes/index"));
 
 // starting the server
 app.listen(process.env.PORT, function () {
